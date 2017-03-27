@@ -1,4 +1,4 @@
-var myDatas = require('./datas.json');
+var myDatas = Object.assign({}, require('./datasProxy'));
 
 module.exports = {
   log:function(){
