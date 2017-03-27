@@ -1,6 +1,5 @@
-var myDatas = require('./datas.json');
-
-module.exports = {
+import myDatas from './datas';
+export default {
   log:function(){
     lowerCaseName()
     console.log(myDatas);
