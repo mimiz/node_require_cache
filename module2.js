@@ -1,4 +1,4 @@
-var myDatas = require('./datas.json');
+const myDatas = require('./datas.json');
 
 module.exports = {
   log:function(){
