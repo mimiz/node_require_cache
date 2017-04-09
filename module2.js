@@ -1,3 +1,5 @@
+var decache = require('decache');
+decache('./datas.json');
 var myDatas = require('./datas.json');
 
 module.exports = {
